@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "release": "standard-version"
   },
   "dependencies": {
     "@angular/animations": "~7.2.0",
@@ -47,6 +48,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "ng-packagr": "^4.2.0",
     "protractor": "~5.4.0",
+    "standard-version": "^5.0.2",
     "ts-node": "~7.0.0",
     "tsickle": ">=0.34.0",
     "tslib": "^1.9.0",
@@ -61,6 +63,6 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }  
+    }
   }
 }
