@@ -1,6 +1,6 @@
 {
   "name": "@varossoft/ngx-testing-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,9 +9,13 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "commit": "git add . && npx git-cz && git push",
+    "amend": "git add . && git commit --amend --no-edit",
+    "push": "git push --follow-tags origin master",
+    "publish": "cd dist/varossoft/ngx-testing-lib && npm publish",
     "build:lib": "ng build @varossoft/ngx-testing-lib",
     "release:lib": "cd projects/varossoft/ngx-testing-lib && npm run release",
-    "release": "npm run release:lib && npm run build:lib && standard-version"
+    "release": "npm run release:lib && npm run build:lib && standard-version",
+    "version": "npm-run-all release amend push publish"
   },
   "dependencies": {
     "@angular/animations": "~7.2.0",
@@ -23,6 +27,7 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "core-js": "^2.5.4",
+    "npm-run-all": "^4.1.5",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
     "zone.js": "~0.8.26"
