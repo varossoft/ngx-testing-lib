@@ -1,6 +1,6 @@
 {
   "name": "@varossoft/ngx-testing-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "commit": "git add . && npx git-cz && git push",
+    "amend": "git add . && git commit --amend --no-edit",
     "build:lib": "ng build @varossoft/ngx-testing-lib",
     "release:lib": "cd projects/varossoft/ngx-testing-lib && npm run release",
     "release": "npm run release:lib && npm run build:lib && standard-version"
