@@ -4,5 +4,20 @@
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
-  }
+  },
+  "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/varossoft/ngx-testing-lib.git"
+  },
+  "author": "Ala Varos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varossoft/ngx-testing-lib/issues"
+  },
+  "homepage": "https://github.com/varossoft/ngx-testing-lib#readme"
 }
