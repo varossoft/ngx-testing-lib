@@ -1,6 +1,6 @@
 {
   "name": "@varossoft/ngx-testing-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -15,7 +15,7 @@
     "build:lib": "ng build @varossoft/ngx-testing-lib",
     "release:lib": "cd projects/varossoft/ngx-testing-lib && npm run release",
     "release": "npm run release:lib && npm run build:lib && standard-version",
-    "version": "npm-run-all release amend push publish"
+    "version": "npm-run-all release push publish"
   },
   "dependencies": {
     "@angular/animations": "~7.2.0",
