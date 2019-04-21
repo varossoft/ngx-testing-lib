@@ -11,7 +11,7 @@
     "commit": "git add . && npx git-cz && git push",
     "build:lib": "ng build @varossoft/ngx-testing-lib",
     "release:lib": "cd projects/varossoft/ngx-testing-lib && npm run release",
-    "release": "npm run release:lib && npm run build:lib && standard-version"
+    "release": "npm run release:lib && npm run build:lib && standard-version --skip.commit --skip.tag"
   },
   "dependencies": {
     "@angular/animations": "~7.2.0",
