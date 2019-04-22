@@ -1,11 +1,11 @@
 {
   "name": "@varossoft/ngx-testing-lib",
-  "version": "1.0.3",
+  "version": "0.0.0-semantically-released",
+  "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
   },
-  "description": "This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.",
   "main": "karma.conf.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

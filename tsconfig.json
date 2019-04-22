@@ -20,10 +20,10 @@
     ],
     "paths": {
       "@varossoft/ngx-testing-lib": [
-        "dist/varossoft/ngx-testing-lib"
+        "dist/@varossoft/ngx-testing-lib"
       ],
       "@varossoft/ngx-testing-lib/*": [
-        "dist/varossoft/ngx-testing-lib/*"
+        "dist/@varossoft/ngx-testing-lib/*"
       ]
     }
   }
